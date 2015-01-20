@@ -156,7 +156,7 @@
 <wire x1="14.2426375" y1="11.75735625" x2="7.878678125" y2="18.12131875" width="0.2032" layer="20"/>
 <wire x1="7.878678125" y1="18.12131875" x2="9.2928875" y2="26.6066" width="0.2032" layer="20"/>
 <circle x="47" y="51" radius="44.687803125" width="0.2032" layer="20"/>
-<circle x="47" y="51" radius="10" width="0.2032" layer="114"/>
+<circle x="47" y="51" radius="9.75" width="0.2032" layer="114"/>
 </plain>
 <libraries>
 <library name="swamy-library">
@@ -169,7 +169,7 @@
 <text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
 <package name="DC-MOTOR-20MM">
-<circle x="0" y="0" radius="10" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="9.75" width="0.127" layer="51"/>
 <pad name="+" x="7.16" y="-12.17" drill="0.8" diameter="1.6764"/>
 <pad name="-" x="-7.08" y="-12.08" drill="0.8" diameter="1.6764"/>
 <text x="-8.8" y="-11.81" size="1.27" layer="21">-</text>

@@ -412,7 +412,7 @@
 <text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
 <package name="DC-MOTOR-20MM">
-<circle x="0" y="0" radius="10" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="9.75" width="0.127" layer="51"/>
 <pad name="+" x="7.16" y="-12.17" drill="0.8" diameter="1.6764"/>
 <pad name="-" x="-7.08" y="-12.08" drill="0.8" diameter="1.6764"/>
 <text x="-8.8" y="-11.81" size="1.27" layer="21">-</text>
