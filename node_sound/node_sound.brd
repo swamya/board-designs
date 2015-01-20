@@ -9,7 +9,7 @@
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -131,10 +131,14 @@
 <text x="23" y="42" size="1.9304" layer="114" font="vector">GND</text>
 <text x="64" y="63" size="1.9304" layer="114" font="vector">VCC</text>
 <text x="62" y="37" size="1.9304" layer="114" font="vector">DATA</text>
-<circle x="47" y="51" radius="37" width="0.2032" layer="20"/>
+<circle x="47" y="51" radius="37" width="0.2032" layer="114"/>
 <text x="33" y="28" size="3.81" layer="114">♫</text>
 <text x="41" y="33" size="3.81" layer="114">♫</text>
 <text x="49" y="37" size="3.81" layer="114">♫</text>
+<wire x1="84" y1="88" x2="84" y2="14" width="0.2032" layer="20"/>
+<wire x1="84" y1="14" x2="10" y2="14" width="0.2032" layer="20"/>
+<wire x1="10" y1="14" x2="10" y2="88" width="0.2032" layer="20"/>
+<wire x1="10" y1="88" x2="84" y2="88" width="0.2032" layer="20"/>
 </plain>
 <libraries>
 <library name="swamy-library">
